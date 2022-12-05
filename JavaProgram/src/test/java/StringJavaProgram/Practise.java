@@ -11,26 +11,16 @@ public class Practise {
 
 	 public static void main(String[] args) {
 
-		 
-		 String s="Hi Hi Hello Welcome Come";
-		  String[] ch = s.split(" ");
-		  
-		LinkedHashSet<String> set=new LinkedHashSet<String>();
-		
-		for (int i = 0; i < ch.length; i++) {
-			set.add(ch[i]);
-		}
-		
-		for (String lv : set) {
-			int count=0;
-			
-			for (int i = 0; i < ch.length; i++) {
-				if (lv.equalsIgnoreCase(ch[i])) {
-					count++;				}
+	        Scanner s = new Scanner(System.in);
+	        System.out.println("enter the string");
+	        String c = s.next();
+	        
+	        String rev="";
+	        
+	        for (int i = c.length()-1; i>=0; i--) {
+				rev=rev+c.charAt(i);
 			}
-			if (count==1) {
-				System.out.println(lv+" "+count);
-			}
-		}
+	        
+	        System.out.println(rev);
  	 }
 }

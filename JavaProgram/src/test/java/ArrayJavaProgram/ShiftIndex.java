@@ -18,6 +18,6 @@ public class ShiftIndex {
 			}
 			a[a.length-1]=tem;
 		}
-		System.out.println(Arrays.toString(a));//
+		System.out.println(Arrays.toString(a));
 	}
 }

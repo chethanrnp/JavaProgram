@@ -5,6 +5,7 @@ public class FirstThreeMiniumWithOutBuble {
 	 public static void main(String[] args) {
 		 int[] a= {1,-2,3,4,-5};
 		 
+		
 		int Fmin=a[0];
 		int Smin=a[0];
 		int Tmin=a[0];
